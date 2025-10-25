@@ -27,7 +27,7 @@ export OPENAI_API_KEY="your-key-here"
 python app.py
 ```
 
-The app will launch at `http://127.0.0.1:7860` with a public shareable link.
+The app will launch at `http://127.0.0.1:786x` with a public shareable link.
 
 ## How It Works
 
@@ -45,7 +45,7 @@ The app will launch at `http://127.0.0.1:7860` with a public shareable link.
 ## Scoring Formula
 
 ```
-Final Score = (0.4 × Embedding Similarity) + (0.6 × Rubric Score)
+Final Score = (0.4 × Embedding Similarity) + (0.6 × Rubric Score), feel free to change the weighting as needed.
 ```
 
 The embedding similarity measures semantic overlap between resume and JD content, while the rubric score comes from GPT-4 evaluation with role-specific criteria.
